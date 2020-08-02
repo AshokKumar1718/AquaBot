@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/': (_) => FancyBackgroundApp(GoogleSignInPage()),0
+        '/': (_) => FancyBackgroundApp(GoogleSignInPage()),0),
         '/home': (_) => HomePage(),
       },
     );
